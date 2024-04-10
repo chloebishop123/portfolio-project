@@ -12,10 +12,24 @@ nav {
     right: 0; 
     height: 80px;
     display: flex;
+    margin-bottom: 300px;
 }
 
 nav li {
     display: inline;
     list-style-type: none;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
     padding: 30px; 
+    justify-content: flex-end;
+    align-content: flex-end;
 } 
+
+main {
+    position: absolute;
+    margin-top: 100px;
+}
+
