@@ -5,6 +5,11 @@
 nav {
     background-color: #44885C;
     color: #FFFFFF;
-    list-style-type: none;
     font-size: 14px;
+    display: flex;
 }
+
+nav li {
+    list-style-type: none;
+    justify-content: flex-end;
+} 
