@@ -13,20 +13,26 @@ nav {
     height: 80px;
     display: flex;
     margin-bottom: 300px;
+    align-items: flex-end;
 }
 
 nav li {
     display: inline;
     list-style-type: none;
+    float: right;
+    padding-bottom: 25px;
 }
 
 nav a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 30px; 
-    justify-content: flex-end;
-    align-content: flex-end;
 } 
+
+.header-right-box {
+    width: 100%;
+    float: right;
+}
 
 main {
     position: absolute;
