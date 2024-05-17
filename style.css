@@ -35,6 +35,10 @@ nav a {
     float: right;
 }
 
+body { 
+background-color: #FFFFFF;
+}
+
 main {
     position: relative;
     display: block;
@@ -112,3 +116,11 @@ hr {
     margin-top: 18rem;
 }
 
+footer { 
+    height: 1.5em;
+    position: sticky;
+    color: #FFFFFF;
+    background-color: #44885C;
+    text-align: center;
+
+} 
