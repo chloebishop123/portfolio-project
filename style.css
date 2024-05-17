@@ -57,7 +57,12 @@ main {
 }
 
 .image-container {
-    width: 500px;
+    width: 450px;
+    height: 90%;
+}
+
+.about-img {
+    height: 500px;
 }
 
 h1 {
@@ -75,7 +80,7 @@ hr {
 }
 
 .projects-section {
-    width: 500px;
+    width: 550px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -85,7 +90,7 @@ hr {
 .project-container {
     width: 100px;
     height: 100px;
-    padding-top: 20px;
+    margin-top: -5em;
 }
 
 .projects-section p {
@@ -94,11 +99,16 @@ hr {
     font-size: 0.8em;
 }
 
+.project-img {
+    height: 150px;
+    width: 150px;
+}
+
 .contact-section {
     width: 500px;
     display: flex;
     position: relative;
     margin-left: 100px;
-    margin-top: 12rem;
+    margin-top: 18rem;
 }
 
